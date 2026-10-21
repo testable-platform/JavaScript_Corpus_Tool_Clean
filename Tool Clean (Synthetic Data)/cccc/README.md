@@ -16,8 +16,6 @@ Boundary-version methodology: 2 earliest + 1 middle + 2 latest supported Node ma
 
 | Family | Status |
 | --- | --- |
-| node12 | CODE-ONLY (valid source, no live tool run) |
-| node14 | CODE-ONLY (valid source, no live tool run) |
 | node20 | CLEAN (non-Node tool; content identical across families) |
-| node24 | CLEAN (non-Node tool; content identical across families) |
-| node26 | CLEAN (non-Node tool; content identical across families) |
+
+This repo carries only the `node20` build.
