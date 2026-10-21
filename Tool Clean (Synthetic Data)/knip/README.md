@@ -26,8 +26,6 @@ Boundary-version methodology: 2 earliest + 1 middle + 2 latest supported Node ma
 
 | Family | Status |
 | --- | --- |
-| node12 | CODE-ONLY (source only -- knip has no resolvable release on this family) |
 | node14 | CODE-ONLY (source only -- knip has no resolvable release on this family) |
-| node20 | CLEAN (installed and run for real under this family's own Node binary) |
-| node24 | CLEAN (installed and run for real under this family's own Node binary) |
-| node26 | CLEAN (installed and run for real under this family's own Node binary) |
+
+This repo carries only the `node14` build.
