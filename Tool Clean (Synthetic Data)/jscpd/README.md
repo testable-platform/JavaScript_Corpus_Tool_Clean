@@ -23,7 +23,5 @@ Boundary-version methodology: 2 earliest + 1 middle + 2 latest supported Node ma
 | Family | Status |
 | --- | --- |
 | node12 | CODE-ONLY (valid source, no live tool run) |
-| node14 | CODE-ONLY (valid source, no live tool run) |
-| node20 | CLEAN (installed and run for real under this family's own Node binary) |
-| node24 | CLEAN (installed and run for real under this family's own Node binary) |
-| node26 | CLEAN (installed and run for real under this family's own Node binary) |
+
+This repo carries only the `node12` build.
