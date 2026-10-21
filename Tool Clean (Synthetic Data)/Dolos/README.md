@@ -26,8 +26,6 @@ Boundary-version methodology: 2 earliest + 1 middle + 2 latest supported Node ma
 
 | Family | Status |
 | --- | --- |
-| node12 | CODE-ONLY (valid source, no live tool run) |
 | node14 | CODE-ONLY (valid source, no live tool run) |
-| node20 | CLEAN (installed and run for real under this family's own Node binary) |
-| node24 | CLEAN (installed and run for real under this family's own Node binary) |
-| node26 | FINDING -- tree-sitter-compat (a Dolos native dependency) fails to compile against Node 26's V8 headers: v8::Object::GetAlignedPointerFromInternalField's signature changed (now requires 3 args, not 1) between the V8 version tree-sitter-compat was written against and Node 26's bundled V8. Genuine, reproducible native-addon ABI break, not a sandbox artifact. |
+
+This repo carries only the `node14` build.
